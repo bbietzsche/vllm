@@ -46,7 +46,7 @@ class EngineArgs:
     max_cpu_loras: Optional[int] = None
     device: str = 'cuda'
     # scheduler parameters
-    scheduler_type: str = "vllm"
+    scheduler_type: str = "sarathi"
     max_num_seqs: int = 256
     max_num_batched_tokens: Optional[int] = None
     # sarathi scheduler parameters
